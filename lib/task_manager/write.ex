@@ -4,7 +4,9 @@ defmodule Mix.Tasks.Write do
 
     Creates a file named 'file.txt' containing a random number.
 
-    Usage: `mix write`
+    Usage:
+    
+    `mix write`
     """
 
     use Mix.Task

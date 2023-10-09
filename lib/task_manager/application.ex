@@ -3,7 +3,7 @@ defmodule TaskManager.Application do
 
     def start(_type, _args) do
         children = [
-            TaskManager.Server
+            TaskManager.Server,
             TaskManager.Scheduler
         ]
 
